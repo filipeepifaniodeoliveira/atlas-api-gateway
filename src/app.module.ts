@@ -4,10 +4,10 @@ import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
-    UsersModule,
     MongooseModule.forRoot(
       'mongodb+srv://FilipeLeon:Vanguarda123@cluster0.sp4vnb5.mongodb.net/?retryWrites=true&w=majority',
     ),
+    UsersModule,
   ],
   controllers: [],
   providers: [],
