@@ -1,5 +1,4 @@
 {
-  "name": "atlas-api-gateway",
   "version": 2,
   "builds": [
       {
